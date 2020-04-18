@@ -18,10 +18,14 @@ Profile
 How to use github
 ------------------------
 
+Make a new repository
+
 .. code-block:: bash
 
    git init # Make a new local repository
-
+   git add * # Add all files into the index managed by git
+   git commit -m "comment here" # Register the index to the repository
+   git remote add origin 
 
 Indices and tables
 ==================
